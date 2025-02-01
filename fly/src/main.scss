@@ -32,3 +32,16 @@
 body {
   background: var(--background-color);
 }
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.section {
+  padding: 4rem 0 2rem;
+}
