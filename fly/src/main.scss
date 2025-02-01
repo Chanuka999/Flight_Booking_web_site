@@ -45,3 +45,46 @@ li {
 .section {
   padding: 4rem 0 2rem;
 }
+
+.container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.icon {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.none {
+  display: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+}
+
+.btn {
+  padding: 0.7rem 1.5rem;
+  background: var(--primary-color);
+  border: none;
+  outline: none;
+  border-radius: 3rem;
+  cursor: pointer;
+  color: var(--background-color);
+
+  a {
+    color: var(--background-color);
+    font-weight: 500;
+  }
+
+  a:hover {
+    background: var(--color-blue);
+  }
+}
