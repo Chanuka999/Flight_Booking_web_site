@@ -88,3 +88,32 @@ li {
     background: var(--color-blue);
   }
 }
+
+img,
+video {
+  width: 100%;
+  height: auto;
+}
+
+input {
+  font-size: 100%;
+  color: var(--color-gray);
+}
+
+p {
+  font-size: 13px;
+  color: var(--color-gray);
+  line-height: 22px;
+}
+
+h4 {
+  padding: 1rem 0;
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+h2 {
+  font-family: 25px;
+  padding: 1rem 0;
+  color: var(--background-color);
+}
