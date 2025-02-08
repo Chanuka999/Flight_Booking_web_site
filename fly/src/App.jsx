@@ -2,7 +2,7 @@ import React from "react";
 import "./main.scss";
 
 import Navbar from "./Components/Navbar/Navbar";
-//import Home from "./Components/Home/Home";
+import Home from "./Components/Home/Home";
 //import Search from "./Components/search/Search";
 //import Support from "./Components/Support/Support";
 //import Info from "./Components/Info/Info";
@@ -15,6 +15,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
+      <Home />
     </div>
   );
 };
