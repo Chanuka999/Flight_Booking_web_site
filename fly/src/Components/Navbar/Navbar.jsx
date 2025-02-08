@@ -6,6 +6,13 @@ import { CgMenuGridO } from "react-icons/cg";
 import logo from "../../assets/logo.jfif";
 const Navbar = () => {
   const [active, setActive] = useState("navBarMenu");
+  const showNavBar = () => {
+    setActive("navBarMenu showNavBar");
+  };
+
+  const removeNavBar = () => {
+    setActive("navBarMenu");
+  };
   return (
     <div className="navBar flex">
       <div className="navBarOne flex">
@@ -32,21 +39,33 @@ const Navbar = () => {
           <img src={logo} className="logo" />
         </div>
 
-        <div className="navBarMenu">
+        <div className={active}>
           <ul className="menu flex">
-            <li className="listItem">Home</li>
-            <li className="listItem">About</li>
-            <li className="listItem">Offers</li>
-            <li className="listItem">Seats</li>
-            <li className="listItem">Destrinations</li>
+            <li onClick={removeNavBar} className="listItem">
+              Home
+            </li>
+            <li onClick={removeNavBar} className="listItem">
+              About
+            </li>
+            <li onClick={removeNavBar} className="listItem">
+              Offers
+            </li>
+            <li onClick={removeNavBar} className="listItem">
+              Seats
+            </li>
+            <li onClick={removeNavBar} className="listItem">
+              Destrinations
+            </li>
           </ul>
 
-          <button className="btn flex btnOne">Contact</button>
+          <button onClick={removeNavBar} className="btn flex btnOne">
+            Contact
+          </button>
         </div>
 
         <button className="btn flex btnOne">Contact</button>
 
-        <div className="toggleIcon">
+        <div onClick={showNavBar} className="toggleIcon">
           <CgMenuGridO className="icon" />
         </div>
       </div>
