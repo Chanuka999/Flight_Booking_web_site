@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { SiConsul } from "react-icons/si";
 import { BsPhoneVibrate } from "react-icons/bs";
 import { AiOutlineGlobal } from "react-icons/ai";
+import { CgMenuGridO } from "react-icons/cg";
 import logo from "../../assets/logo.jfif";
 const Navbar = () => {
+  const [active, setActive] = useState("navBarMenu");
   return (
     <div className="navBar flex">
       <div className="navBarOne flex">
@@ -25,9 +27,9 @@ const Navbar = () => {
           <span>Sign Out</span>
         </div>
       </div>
-      <div className="navBartTwo">
+      <div className="navBarTwo flex">
         <div className="logoDiv">
-          <img src={logo} className="Logo" />
+          <img src={logo} className="logo" />
         </div>
 
         <div className="navBarMenu">
@@ -39,7 +41,13 @@ const Navbar = () => {
             <li className="listItem">Destrinations</li>
           </ul>
 
-          <button className="btn">Contact</button>
+          <button className="btn flex btnOne">Contact</button>
+        </div>
+
+        <button className="btn flex btnOne">Contact</button>
+
+        <div className="toggleIcon">
+          <CgMenuGridO className="icon" />
         </div>
       </div>
     </div>
