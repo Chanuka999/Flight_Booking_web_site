@@ -173,7 +173,7 @@ h2 {
         padding: 1.5rem;
         border-radius: 10px;
         top: 5rem;
-        right: 50%;
+        right: -50%;
         width: 80%;
         transform: translateX(50%);
         z-index: 2000;
@@ -216,6 +216,45 @@ h2 {
         font-size: 30px;
         color: var(--color-black);
       }
+    }
+    .showNavBar {
+      right: 50%;
+      transition: 0.5s ease-in-out;
+    }
+  }
+}
+
+.home {
+  padding-top: 10rem;
+  text-align: center;
+  gap: 2rem;
+  flex-direction: column;
+
+  .mainText {
+    color: var(--color-black);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 2.5rem;
+  }
+  .homeImages {
+    width: 100%;
+    margin: 1rem auto 0;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 5rem;
+
+    .videoDiv {
+      width: 100%;
+      .video {
+        border-radius: 10rem;
+      }
+    }
+
+    .plane {
+      position: absolute;
+      width: 100%;
+      top: -10%;
     }
   }
 }
