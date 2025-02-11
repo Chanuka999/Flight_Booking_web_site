@@ -3,7 +3,7 @@ import "./main.scss";
 
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
-//import Search from "./Components/search/Search";
+import Search from "./Components/search/Search";
 //import Support from "./Components/Support/Support";
 //import Info from "./Components/Info/Info";
 //import Lounge from "./Components/Lounge/Lounge";
@@ -16,6 +16,7 @@ const App = () => {
     <div>
       <Navbar />
       <Home />
+      <Search />
     </div>
   );
 };
