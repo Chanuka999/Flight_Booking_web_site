@@ -13,6 +13,12 @@ const Navbar = () => {
   const removeNavBar = () => {
     setActive("navBarMenu");
   };
+
+  const [noBg, addBg] = useState("navBarTwo");
+  const addBgColor = () => {
+    setActive("navBarTwo navbar_With_Bg");
+  };
+
   return (
     <div className="navBar flex">
       <div className="navBarOne flex">
@@ -34,7 +40,7 @@ const Navbar = () => {
           <span>Sign Out</span>
         </div>
       </div>
-      <div className="navBarTwo flex">
+      <div className="navBarTwo">
         <div className="logoDiv">
           <img src={logo} className="logo" />
         </div>
