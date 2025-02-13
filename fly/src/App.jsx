@@ -5,7 +5,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
 import Search from "./Components/search/Search";
 import Support from "./Components/Support/Support";
-//import Info from "./Components/Info/Info";
+import Info from "./Components/Info/Info";
 //import Lounge from "./Components/Lounge/Lounge";
 //import Travelers from "./Components/Travelers/Travelers";
 //import Subscribers from "./Components/Subscribers/Subscribers";
@@ -18,6 +18,7 @@ const App = () => {
       <Home />
       <Search />
       <Support />
+      <Info />
     </div>
   );
 };
