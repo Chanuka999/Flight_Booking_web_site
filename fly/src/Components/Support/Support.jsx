@@ -24,7 +24,7 @@ const Support = () => {
             </div>
 
             <div className="singleInfo">
-              <span className="number">02</span>
+              <span className="number colorOne">02</span>
               <h4>chauffeur services at your arrival</h4>
               <p>
                 find help with booking and travel plans,see what to expect along
@@ -32,7 +32,7 @@ const Support = () => {
             </div>
 
             <div className="singleInfo">
-              <span className="number">03</span>
+              <span className="number colorTwo">03</span>
               <h4>Travel requirments for dubai</h4>
               <p>
                 find help with booking and travel plans,see what to expect along
