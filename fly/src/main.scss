@@ -373,7 +373,26 @@ h2 {
             width: 40px;
             border-radius: 3rem;
             text-align: center;
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--background-color);
           }
+
+          .colorOne {
+            background: var(--color-orange);
+          }
+
+          .colorTwo {
+            background: var(--color-green);
+          }
+        }
+      }
+
+      .imgDiv {
+        margin: auto;
+        img {
+          width: 100%;
+          max-width: 420px;
         }
       }
     }
