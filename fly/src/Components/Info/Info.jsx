@@ -25,7 +25,7 @@ const Info = () => {
           </div>
 
           <div className="singleCard grid">
-            <div className="iconDiv flex">
+            <div className="iconDiv flex colorOne">
               <BsShieldCheck className="icon" />
             </div>
             <span className="cardTitle">Smart check list</span>
@@ -36,7 +36,7 @@ const Info = () => {
           </div>
 
           <div className="singleCard grid">
-            <div className="iconDiv flex">
+            <div className="iconDiv flex colorTwo">
               <BsBookmarkCheck className="icon" />
             </div>
             <span className="cardTitle">Book & relax</span>
