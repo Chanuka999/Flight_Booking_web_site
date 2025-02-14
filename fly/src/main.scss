@@ -398,3 +398,89 @@ h2 {
     }
   }
 }
+
+.info {
+  background: var(--secondary-color);
+  .infoContainer {
+    .titlesDiv {
+      flex-direction: column;
+      text-align: center;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+
+    .cardsDiv {
+      gap: 1.5rem;
+      margin-top: 3rem;
+
+      .singleCard {
+        background: var(--background-color);
+        padding: 3rem 2rem;
+        border-radius: 10rem;
+        gap: 1rem;
+        text-align: center;
+        margin: auto;
+        height: 320px;
+        width: 90%;
+        max-width: 250px;
+
+        .iconDiv {
+          justify-content: center;
+          margin: auto;
+          background: var(--primary-color);
+          width: max-content;
+          height: 55px;
+          padding: 1rem;
+          border-radius: 3rem;
+
+          .icon {
+            color: var(--background-color);
+          }
+        }
+
+        .cardTitle {
+          color: var(--color-black);
+          font-weight: 700;
+        }
+
+        .colorOne {
+          background-color: var(--color-orange);
+        }
+
+        .colorTwo {
+          background-color: var(--color-green);
+        }
+      }
+    }
+  }
+}
+
+.lounge {
+  .sectionContainer {
+    gap: 1.5rem;
+
+    .imgDiv {
+      margin: auto;
+      img {
+        width: 300%;
+        max-width: 430px;
+      }
+    }
+
+    .textDiv {
+      .grids {
+        margin-top: 1rem;
+        gap: 1.5rem;
+
+        .singleGrid {
+          .gridTitle {
+            display: block;
+            padding-bottom: 0.3rem;
+            font-weight: 500;
+            color: var(--color-black);
+          }
+        }
+      }
+    }
+  }
+}
