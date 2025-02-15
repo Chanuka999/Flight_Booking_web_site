@@ -10,7 +10,7 @@ import traveler2 from "../../assets/traveler2.jfif";
 import traveler3 from "../../assets/traveler3.jpg";
 import traveler4 from "../../assets/traveler4.jpg";
 
-const traverlers = [
+const travelers = [
   {
     id: 1,
     destinationImage: paris,
@@ -49,7 +49,7 @@ const Travelers = () => {
         <h3>Top traverlers of this month</h3>
 
         <div className="travelersContainer grid">
-          {traverlers.map(
+          {travelers.map(
             ({
               id,
               destinationImage,
