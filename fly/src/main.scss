@@ -924,7 +924,7 @@ h2 {
         align-items: center;
       }
 
-      h2 {
+      h3 {
         text-align: center;
         max-width: 500px;
       }
@@ -934,8 +934,145 @@ h2 {
 
         .singleCard {
           max-width: 260px;
-          padding: 3rem;
+          padding: 3rem 1rem;
         }
+      }
+    }
+  }
+
+  .lounge {
+    .sectionContainer {
+      grid-template-columns: repeat(2, 1fr);
+      .textDiv {
+        grid-area: 1;
+        .grids {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+    }
+  }
+
+  .travelers {
+    .sectionContainer {
+      .travelersContainer {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .home {
+    padding-top: 13rem;
+    .mainText {
+      width: 70%;
+      padding-bottom: 1.5rem;
+      font-size: 22px;
+      line-height: 4rem;
+    }
+
+    .homeImages {
+      .videoDiv {
+        width: 80%;
+        .video {
+          height: 100%;
+          width: 100%;
+          border-radius: 15rem;
+        }
+      }
+
+      .plane {
+        width: 95%;
+        top: -8%;
+      }
+    }
+  }
+
+  .search {
+    .sectionContainer {
+      .searchInputs {
+        grid-template-columns: repeat(5, 1fr);
+      }
+    }
+  }
+
+  .travelers {
+    .sectionContainer {
+      .travelersContainer {
+        grid-template-columns: repeat(4, 1fr);
+        margin: 3rem 0;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 27px;
+  }
+
+  .section {
+    padding: 6rem 0 4rem;
+  }
+
+  .container {
+    width: 75%;
+    margin: auto;
+  }
+
+  .navBar {
+    .navBarOne,
+    .navBarTwo {
+      padding: 1.5rem 5rem;
+    }
+
+    .navBar_With_Bg {
+      padding: 0 5rem;
+    }
+  }
+
+  .home {
+    padding-top: 13rem;
+    .mainText {
+      width: 60%;
+      padding-bottom: 1.5rem;
+      font-size: 22px;
+      line-height: 4rem;
+    }
+
+    .homeImages {
+      .videoDiv {
+        width: 90%;
+        height: 300px;
+
+        .video {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          border-radius: 15rem;
+        }
+      }
+
+      .plane {
+        width: 100%;
+        top: -10%;
+      }
+    }
+  }
+
+  .search {
+    .sectionContainer {
+      .btns {
+        width: 50%;
       }
     }
   }
