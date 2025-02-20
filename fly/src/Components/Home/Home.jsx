@@ -1,7 +1,4 @@
-//import React from "react";
-
 import video from "../../assets/video.mp4";
-//import ar2 from "../../assets/ar2.jpg";
 
 const Home = () => {
   return (
@@ -14,7 +11,6 @@ const Home = () => {
         <div className="videoDiv">
           <video src={video} autoPlay muted loop className="video"></video>
         </div>
-        {/* <img src={} className="plane" /> */}
       </div>
     </div>
   );
