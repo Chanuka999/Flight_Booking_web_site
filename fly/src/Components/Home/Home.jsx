@@ -14,7 +14,7 @@ const Home = () => {
         <div className="videoDiv">
           <video src={video} autoPlay muted loop className="video"></video>
         </div>
-        <img src={ar2} className="plane" />
+        {/* <img src={} className="plane" /> */}
       </div>
     </div>
   );
