@@ -1,7 +1,7 @@
 //import React from "react";
 
 import video from "../../assets/video.mp4";
-import ar2 from "../../assets/ar2.jpg";
+//import ar2 from "../../assets/ar2.jpg";
 
 const Home = () => {
   return (
