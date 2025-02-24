@@ -1,6 +1,6 @@
-import React from "react";
 import "./main.scss";
 
+import { HashRouter } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
 import Search from "./Components/search/Search";
@@ -14,15 +14,17 @@ import Footer from "./Components/Footer/Footer";
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <Home />
-      <Search />
-      <Support />
-      <Info />
-      <Lounge />
-      <Travelers />
-      <Subscribers />
-      <Footer />
+      <HashRouter>
+        <Navbar />
+        <Home />
+        <Search />
+        <Support />
+        <Info />
+        <Lounge />
+        <Travelers />
+        <Subscribers />
+        <Footer />
+      </HashRouter>
     </div>
   );
 };
