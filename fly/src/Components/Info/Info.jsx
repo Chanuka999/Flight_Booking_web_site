@@ -1,4 +1,3 @@
-import React from "react";
 import { RxCalendar } from "react-icons/rx";
 import { BsShieldCheck } from "react-icons/bs";
 import { BsBookmarkCheck } from "react-icons/bs";
